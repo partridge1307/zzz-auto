@@ -1,11 +1,9 @@
-const COOKIE = [
-	"ltoken_v2=xxx; ltuid_v2=xxx; ltmid_v2=xxx;"
-	// and so on...
-];
+const script_properties = PropertiesService.getScriptProperties();
 
-const DISCORD_WEBHOOK = null;
+const COOKIE = [script_properties.getProperty("COOKIE_1")];
+const DISCORD_WEBHOOK = script_properties.getProperty("DISCORD_WEBHOOK");
 
-const ACT_ID = "e202303301540311";
+const ACT_ID = "e202406031448091";
 const BASE_URL = "https://sg-act-nap-api.hoyolab.com/event/luna/zzz/os";
 
 class Discord {
@@ -145,8 +143,8 @@ class StarRail {
 
 			const discord = new Discord(DISCORD_WEBHOOK);
 			if (data.issigned) {
-				await discord.send({ message: `[Account ${counter}]: You've already checked in today, Trailblazer~` }, true);
-				console.log(`[Account ${counter}]: You've already checked in today, Trailblazer~`);
+				await discord.send({ message: `[Account ${counter}]: You've already checked in today, Proxy~` }, true);
+				console.log(`[Account ${counter}]: You've already checked in today, Proxy~`);
 				continue;
 			}
 
