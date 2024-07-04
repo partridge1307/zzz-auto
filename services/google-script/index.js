@@ -1,12 +1,12 @@
 const COOKIE = [
-	"ltoken_v2=xxx; ltuid_v2=xxx;"
+	"ltoken_v2=xxx; ltuid_v2=xxx; ltmid_v2=xxx;"
 	// and so on...
 ];
 
 const DISCORD_WEBHOOK = null;
 
 const ACT_ID = "e202303301540311";
-const BASE_URL = "https://sg-public-api.hoyolab.com/event/luna/os";
+const BASE_URL = "https://sg-act-nap-api.hoyolab.com/event/luna/zzz/os";
 
 class Discord {
 	constructor (DISCORD_WEBHOOK) {
@@ -25,21 +25,21 @@ class Discord {
 				payload: JSON.stringify({
 					embeds: [
 						{
-							title: "Honkai: Star Rail Auto Check-in",
+							title: "Zenless Zen Zero Auto Check-in",
 							author: {
-								name: "Honkai: Star Rail",
-								icon_url: "https://i.imgur.com/o0hyhmw.png"
+								name: "Zenless Zen Zero",
+								icon_url: "https://cdn.discordapp.com/emojis/1250868517620945006.webp?size=128&quality=lossless"
 							},
 							description: data.message,
 							color: 0xBB0BB5,
 							timestamp: new Date(),
 							footer: {
-								text: "Honkai: Star Rail Auto Check-in"
+								text: "Zenless Zen Zero Auto Check-in"
 							}
 						}
 					],
-					username: "Honkai: Star Rail",
-					avatar_url: "https://i.imgur.com/o0hyhmw.png"
+					username: "Zenless Zen Zero",
+					avatar_url: "https://cdn.discordapp.com/emojis/1250868517620945006.webp?size=128&quality=lossless"
 				})
 			});
 
@@ -56,8 +56,8 @@ class Discord {
 			contentType: "application/json",
 			payload: JSON.stringify({
 				embeds: [embed],
-				username: "Honkai: Star Rail",
-				avatar_url: "https://i.imgur.com/o0hyhmw.png"
+				username: "Zenless Zone Zero",
+				avatar_url: "https://cdn.discordapp.com/emojis/1250868517620945006.webp?size=128&quality=lossless"
 			})
 		});
 
@@ -70,17 +70,17 @@ class Discord {
 
 	static generateEmbed (data = {}) {
 		return {
-			title: "Honkai: Star Rail Auto Check-in",
+			title: "Zenless Zone Zero Auto Check-in",
 			author: {
-				name: "Honkai: Star Rail",
-				icon_url: "https://i.imgur.com/o0hyhmw.png"
+				name: "Zenless Zone Zero",
+				icon_url: "https://cdn.discordapp.com/emojis/1250868517620945006.webp?size=128&quality=lossless"
 			},
 			description: `Today's reward: ${data.award.name} x${data.award.count}`
         + `\nTotal signed: ${data.signed}`,
 			color: 0xBB0BB5,
 			timestamp: new Date(),
 			footer: {
-				text: "Honkai: Star Rail Auto Check-in"
+				text: "Zenless Zone Zero Auto Check-in"
 			}
 		};
 	}
