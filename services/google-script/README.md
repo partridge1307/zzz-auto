@@ -41,8 +41,8 @@
 4. Click on the "Application" tab.
 5. Type "lt" in the "Filter" bar.
    ![image](https://github.com/torikushiii/starrail-auto/assets/21153445/fa902bdd-d165-4a8b-869b-860837ecee30)
-6. Paste the `ltoken_v2` and `ltuid_v2` value to the COOKIE array on the code.
-   ![](https://github.com/partridge1307/zzz-auto/image)
+6. Paste the `ltoken` and `ltuid` value to the COOKIE array on the code.
+   ![](https://github.com/torikushiii/starrail-auto/assets/21153445/4aa9c2ab-ff47-4de3-a93c-2ba53310d1c8)
 
 # Trigger
 If you want to automate the script, you can add a trigger to run it daily.
