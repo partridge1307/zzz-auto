@@ -20,7 +20,7 @@
     ![](https://i.imgur.com/ZaA2oSX.png)
 5. Follow the [Getting your cookie](#getting-your-cookie) instruction.
 6. Add your cookie to the code
-    ![](https://github.com/torikushiii/starrail-auto/assets/21153445/4aa9c2ab-ff47-4de3-a93c-2ba53310d1c8)
+    ![](https://raw.githubusercontent.com/partridge1307/zzz-auto/master/image.png)
 7. Add `DISCORD_WEBHOOK` with your Discord webhook (optional).
 8. Click on save icon "Run" to run it once.
     ![](https://i.imgur.com/SvNODZL.png)
@@ -41,8 +41,8 @@
 4. Click on the "Application" tab.
 5. Type "lt" in the "Filter" bar.
    ![image](https://github.com/torikushiii/starrail-auto/assets/21153445/fa902bdd-d165-4a8b-869b-860837ecee30)
-6. Paste the `ltoken` and `ltuid` value to the COOKIE array on the code.
-   ![](https://github.com/torikushiii/starrail-auto/assets/21153445/4aa9c2ab-ff47-4de3-a93c-2ba53310d1c8)
+6. Paste the `ltoken_v2` and `ltuid_v2` value to the COOKIE array on the code.
+   ![](https://raw.githubusercontent.com/partridge1307/zzz-auto/master/image.png)
 
 # Trigger
 If you want to automate the script, you can add a trigger to run it daily.
