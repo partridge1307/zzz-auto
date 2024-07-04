@@ -1,6 +1,6 @@
-# Honkai: Star Rail Check-In Helper
+# Zenless Zone Zero Check-In Helper
 
-[Daily Check-In](https://act.hoyolab.com/bbs/event/signin/hkrpg/index.html?act_id=e202303301540311)
+[Daily Check-In](https://act.hoyolab.com/bbs/event/signin/zzz/e202406031448091.html?act_id=e202406031448091)
 
 # Contents
 - [Pre-requisites](#pre-requisites)
